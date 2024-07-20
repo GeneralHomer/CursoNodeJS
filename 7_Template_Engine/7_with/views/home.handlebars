@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handlebars</title>
+</head>
+<body>
+    <p>Olá {{user.name}} {{user.surname}}, seja bem vindo!</p>
+    {{#if approved}}
+        <p>Parabéns sua a autenticação foi concluída com sucesso</p>
+    {{else}}
+    
+        <p>Parece que você ainda não se cadastrou</p>
+    {{/if}}
+    {{#if auth}}
+    <p>Você está autenticado,<a href="/dashboard">clique aqui</a>
+    para acessar a área de membros </p>
+    {{/if}}
+    
+</body>
+</html>

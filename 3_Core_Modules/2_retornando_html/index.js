@@ -3,7 +3,7 @@ const port = 3000;
 
 const server = hhtp.createServer((req,res)=>{
 res.statusCode = 200;
-res.setHeader('COntenty-Type','text/html');
+res.setHeader('Contenty-Type','text/html');
 res.end('<h1>Olá, este é meu primeiro server com HTML</h1><p>Testando atualização</p>')
 })
 

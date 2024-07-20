@@ -1,0 +1,33 @@
+body{
+    box-sizing: border-box;
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+}
+
+.headerContainer{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 10px;
+    
+    justify-items: flex-start;
+    background-color: pink;
+    width: 50%;
+}
+.item{
+    cursor:pointer;
+}
+.cega{
+    width: 50%;
+    background-color: red;
+}
